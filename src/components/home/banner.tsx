@@ -55,7 +55,7 @@ const UserAvatarGroup = ({ count }: { count: string }) => (
 
 const Banner = () => {
   return (
-    <div className="min-h-screen bg-[linear-gradient(90deg,#E7EEFF_0%,#F3EFFF_50%,#EEDBFF_100%)]">
+    <div className="relative min-h-screen bg-[linear-gradient(90deg,#E7EEFF_0%,#F3EFFF_50%,#EEDBFF_100%)]">
       {/* Header */}
       <header className="container mx-auto px-4 sm:px-6 py-4 sm:py-6">
         <div className="flex items-center justify-between">
@@ -70,7 +70,7 @@ const Banner = () => {
       </header>
 
       {/* Hero Section */}
-      <main className="container mx-auto px-4 sm:px-6 pt-8">
+      <main className="absolute bottom-0 left-1/2 transform -translate-x-1/2 container mx-auto px-4 sm:px-6 pt-8">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           {/* Left Content */}
           <div className="space-y-6 sm:space-y-8 text-center lg:text-left">
